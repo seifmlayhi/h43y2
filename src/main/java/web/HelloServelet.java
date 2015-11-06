@@ -20,7 +20,9 @@ public class HelloServelet extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 	
 	protected void doGet(HttpServletRequest request ,HttpServletResponse response)
-	throws ServletException ,IOException      {
+
+			//uugqtezrdfgyhu
+			throws ServletException ,IOException      {
 	PrintWriter printriter =response .getWriter();
 	printriter.write("<html>");
 	printriter.write("<head>");	
@@ -28,6 +30,10 @@ public class HelloServelet extends HttpServlet{
 	printriter.write("<body>");
 	printriter.write("<h1>hello from  the other side <h1>");
 	printriter.write("</body>");
+	
+	
+	
+	
 	printriter.write("</html>");
 		
 		
